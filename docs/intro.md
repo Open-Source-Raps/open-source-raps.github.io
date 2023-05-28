@@ -1,6 +1,6 @@
 ---
 id: rap-lessons-intro
-title: Open Source Raps! - Getting Started
+title: Getting Started
 slug: /raps
 tags: [Getting Started, Raps, Music, Lessons]
 sidebar_position: 1

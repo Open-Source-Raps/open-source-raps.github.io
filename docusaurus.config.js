@@ -20,7 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'open-source-raps', // Usually your GitHub org/user name.
   projectName: 'open-source-raps.github.io', // Usually your repo name.
-  deploymentBranch: 'first-pass'
+  deploymentBranch: 'main',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -82,42 +82,37 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Raps (Lessons)',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Getting Started',
+                to: '/docs/raps',
+              },
+              {
+                label: 'Lesson Downloads',
+                to: 'http://code.opensourceraps.com',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Resources',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Code',
+                href: 'http://code.opensourceraps.com'
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Music',
+                href: 'http://raps.opensourceraps.com'
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+              { 
+                label: 'This Site\'s Code',
+                href: 'http://github.com/open-source-raps/open-source-raps.github.io'
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Open Source Raps!™.`,
       },
       prism: {
         theme: lightCodeTheme,
