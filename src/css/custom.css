@@ -25,6 +25,12 @@
   margin-top: 0px;
 }
 
+/* Make YouTube embeds responsive at the correct aspect ratio. */
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;

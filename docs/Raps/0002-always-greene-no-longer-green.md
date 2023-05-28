@@ -3,7 +3,7 @@ id: rap-lessons-2
 title: "#0002 - Always Greene, No Longer Green"
 description: "A rap and accompanying literature built for the Greene Scholars program Summer Camp at LinkedIn during Summer 2023.  This is intended to teach basic programming through Python in one long lesson, that can be broken up into six parts."
 slug: /Raps/0002/always-greene-no-longer-green
-tags: [Raps, Music, Lessons, Python, beginning, novice, programming, intro]
+tags: [raps, music, lessons, Python, beginner, novice, introduction, programming]
 sidebar_position: 2
 ---
 
@@ -20,7 +20,7 @@ The **STUB** audio version of this lesson is here:
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1524150838&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 The **STUB** video for this lesson is here:
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/H4H39HwHJ0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/H4H39HwHJ0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ### Part 1: Introduction
@@ -49,10 +49,12 @@ Assembly, C#, Lisp, Pascal, PERL, Ruby, Rust, SQL, or Swift
 
 These languages barely crack the surface of what tools are available for programmers to use.  Let's do a small comparison of different features that some of these languages support to show the versatility.
 
-| Language   | Compiled   |
-|------------|------------|
-| Assembly   | Yes        |
+| Language   | Compiled        |
+|------------|-----------------|
+| Assembly   | Yes<sup>1</sup> |
+<sup>1</sup> - Many other languages are compiled down to assembly language and then that is compiled into a machine-ready binary. Assembly language is usually just compiled (and linked) into a binary.
 
 
-> I’m going to use Python 'cause it’s simple and it’s free,
+> I’m going to use Python 'cause it’s simple and it’s free,  
 > Plus, I met Guido van Rossum and he was nice to me,
+

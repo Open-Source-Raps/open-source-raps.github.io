@@ -87,8 +87,12 @@ const config = {
             title: 'Raps (Lessons)',
             items: [
               {
-                label: 'Getting Started',
-                to: '/docs/raps',
+                label: 'Get Started',
+                to: '/docs/Raps',
+              },
+              {
+                label: 'Get Rapping',
+                to: '/docs/Raps/0001/accessibility-daze',
               },
               {
                 label: 'Lesson Downloads',
