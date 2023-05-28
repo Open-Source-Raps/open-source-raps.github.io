@@ -1,51 +1,18 @@
 ---
 id: rap-lessons-intro
 title: Getting Started
-slug: /raps
+slug: /Raps
 tags: [Getting Started, Raps, Music, Lessons]
 sidebar_position: 1
 ---
 
 # Introduction
-
 Welcome to Open Source Raps!  We're going to get you jamming with both your ears and hands in just minutes!!
 
+Open Source Raps! is divided into "lessons", otherwise referred to as "raps" or "songs".  Each lesson is composed of a song that can replayed to help reinforce the concepts, a video that is meant for the initial viewing (since it can add additional context), and written documentation (usually with code, where applicable).
+
 ## Getting Started
+Follow the instructions on the [code repository](http://code.opensourceraps.com) README.md file to get setup with all the files for all exercises.  
+Each lesson will have a separate directory with a `README.md` file and any other files that might be needed. 
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+If you would like to download the tutorials themselves, the source code for this site is available [here](http://github.com/open-source-raps/open-source-raps.github.io).

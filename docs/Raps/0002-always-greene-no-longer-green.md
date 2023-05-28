@@ -2,7 +2,7 @@
 id: rap-lessons-2
 title: "#0002 - Always Greene, No Longer Green"
 description: "A rap and accompanying literature built for the Greene Scholars program Summer Camp at LinkedIn during Summer 2023.  This is intended to teach basic programming through Python in one long lesson, that can be broken up into six parts."
-slug: /raps/0002/always-greene-no-longer-green
+slug: /Raps/0002/always-greene-no-longer-green
 tags: [Raps, Music, Lessons, Python, beginning, novice, programming, intro]
 sidebar_position: 2
 ---
@@ -12,9 +12,16 @@ A rap and accompanying literature built for the Greene Scholars program Summer C
 This is intended to teach basic programming through Python in one long lesson, that can be broken up into six parts.
 Let's get into it and turn you into an engineer!~
 
-## Getting Started
+## Lesson Materials
 Follow the instructions on the [code repository](http://code.opensourceraps.com) README.md file to get setup with all the files for all exercises.
-The files for this lesson are located at the path: `/raps/0002-always-greene-no-longer-green`.
+The files for this lesson are located at the path: `/Raps/0002-always-greene-no-longer-green`.
+
+The **STUB** audio version of this lesson is here:
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1524150838&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+The **STUB** video for this lesson is here:
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/H4H39HwHJ0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ### Part 1: Introduction
 > With so many lessons in the world today,  
@@ -35,11 +42,16 @@ If you follow along with these lesson and accompanying materials, we're sure you
 > It all compiles down to the same 0s and 1s,  
  
 Here are some of the programming languages you might have heard of, even if you're a programming neophyte:  
-C++, Java, JavaScript, HTML, PHP, or Python
+C++, COBOL, Fortran, Java, JavaScript, HTML, PHP, or Python
 
 If you've had some exposure to programming, maybe you've heard of one or more of the following languages:  
-C#, PERL, Ruby, or SQL
+Assembly, C#, Lisp, Pascal, PERL, Ruby, Rust, SQL, or Swift
 
+These languages barely crack the surface of what tools are available for programmers to use.  Let's do a small comparison of different features that some of these languages support to show the versatility.
+
+| Language   | Compiled   |
+|------------|------------|
+| Assembly   | Yes        |
 
 
 > I’m going to use Python 'cause it’s simple and it’s free,

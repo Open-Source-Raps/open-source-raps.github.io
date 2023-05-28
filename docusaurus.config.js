@@ -51,8 +51,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/opensourceraps.png',
       navbar: {
         title: 'Open Source Raps!',
         logo: {
@@ -65,10 +64,13 @@ const config = {
             sidebarId: 'rapsSidebar',
             position: 'left',
             label: 'Raps (Lessons)',
+            collapsed: false,
+            collapsible: false,
+            hideSidebar: true,
           },
           {
             href: 'http://raps.opensourceraps.com',
-            label: 'Rap Code',
+            label: 'Raps (Lessons) Code',
             position: 'right',
           },
           { 
