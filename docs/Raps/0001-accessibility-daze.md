@@ -2,16 +2,17 @@
 id: rap-lessons-1
 title: "#0001 - Accessibility Daze"
 description: "A rap and accompanying literature about digital accessibility and how to show allyship and support for the cause."
-slug: /Raps/0001/accessibility-daze
-tags: [raps, music, lessons, accessibility, digital accessibility, a11y, allyship, intermediate]
+slug: /raps/0001/accessibility-daze
+tags: [raps, music, lessons, accessibility, digital accessibility, a11y, allyship, intermediate, AWOL, Coop]
 sidebar_position: 1
+displayed_sidebar: mainSidebar
 ---
 
 ## Introduction
 A rap and accompanying literature about digital accessibility and how to show allyship and support for the cause.  
 This rap was created for the [Global Accessibility Awareness Day (GAAD) Foundation](https://gaad.foundation).
 
-## Lesson Materials
+## Learning Materials
 There is no code for this lesson.
 
 The audio version of this lesson is here:

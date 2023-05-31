@@ -31,6 +31,82 @@
   width: 100%;
 }
 
+/* START about page */
+.artists, .feature-artists {
+  display: inline-table;
+  position: absolute;
+}
+
+.artists, .feature-artists * {
+  all: revert;
+}
+
+.artists-column, .featured-artists-column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .artists-column, .featured-artists-column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.artist, .feature-artist {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: block;
+  text-align: center;
+}
+
+.artist img, .feature-artist img {
+  width: 98%;
+}
+
+.artist-container, featured-artist-container {
+  padding: 0 16px;
+  display: block;
+  text-align: left;
+}
+
+.artists-container::after, featured-artist-container::after, .artists::after, .featured-artists::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+.artist-container p button, featured-artist-container p button {
+  margin-bottom: 16px;
+}
+
+/* END about page */
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+/* END about page */
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;

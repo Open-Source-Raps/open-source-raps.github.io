@@ -60,17 +60,13 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'rapsSidebar',
-            position: 'left',
-            label: 'Raps (Lessons)',
-            collapsed: false,
-            collapsible: false,
-            hideSidebar: true,
+            href: 'http://raps.opensourceraps.com',
+            label: 'Code',
+            position: 'right',
           },
           {
-            href: 'http://raps.opensourceraps.com',
-            label: 'Raps (Lessons) Code',
+            href: 'http://music.opensourceraps.com',
+            label: 'Music',
             position: 'right',
           },
           { 
@@ -84,7 +80,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Raps (Lessons)',
+            title: 'Rap Lessons',
             items: [
               {
                 label: 'Get Started',
@@ -92,7 +88,7 @@ const config = {
               },
               {
                 label: 'Get Rapping',
-                to: '/docs/Raps/0001/accessibility-daze',
+                to: '/docs/raps/0001/accessibility-daze',
               },
               {
                 label: 'Lesson Downloads',
@@ -101,8 +97,12 @@ const config = {
             ],
           },
           {
-            title: 'Resources',
+            title: 'Open Source Raps!',
             items: [
+              {
+                label: 'About',
+                href: 'http://www.opensourceraps.com/docs/about'
+              },
               {
                 label: 'Code',
                 href: 'http://code.opensourceraps.com'
@@ -110,6 +110,18 @@ const config = {
               {
                 label: 'Music',
                 href: 'http://raps.opensourceraps.com'
+              },
+              {
+                label: 'Music',
+                href: 'http://raps.opensourceraps.com'
+              },
+              {
+                label: 'Videos',
+                href: 'https://raps.opensourceraps.com'
+              },
+              {
+                label: 'Instagram',
+                href: 'https://instagram.com/open.source.raps'
               },
               { 
                 label: 'This Site\'s Code',
